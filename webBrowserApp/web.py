@@ -48,7 +48,7 @@ class WebEnginePage(QMainWindow):
         #connect(viewSourceAction, &QAction::triggered, this, &MainWindow::viewSource);
         #viewMenu.addAction(viewSourceAction);
         self.access = ["id","key","access"]
-        self.access = ["id","uname","upwd"]
+        self.users = ["id","uname","upwd", "uaccess"]
 
 
     @pyqtSlot(str)
